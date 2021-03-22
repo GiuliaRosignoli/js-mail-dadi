@@ -53,7 +53,7 @@ if(userFound === true) {
 userNumber - random number
 computerNumber - random number
 
-if userNumber is biggest than computerNumber, it wins. */
+if userNumber is bigger than computerNumber, it wins. */
 
 
 var userNumber = Math.floor(Math.random()*10 );
