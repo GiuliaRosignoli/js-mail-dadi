@@ -45,11 +45,29 @@ if(userFound === true) {
 
 
 
-          //2ND TASK
+          // 2ND TASK
+
 /** Generating random numbers 1 to 6 - user / computer
  The biggest one wins
 
 userNumber - random number
 computerNumber - random number
 
-if userNumber is biggest than computerNumber, it wins.
+if userNumber is biggest than computerNumber, it wins. */
+
+
+var userNumber = Math.floor(Math.random()*10 );
+console.log("The number is ", userNumber);
+
+var computerNumber = Math.floor(Math.random)*10 );
+console.log("The number is ", computerNumber);
+
+
+/* function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+*/
+
+if(userNumber > 6) {
+    userNumber = 
+}
