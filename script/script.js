@@ -7,6 +7,8 @@
  */
 
 
+                // 1ST TASK 
+
 // 1st step
 
 var emailAddress = prompt("Insert your email address");
@@ -28,12 +30,26 @@ for (var i = 0; i < emailAddressDatabase.length; i++){
 var userFound = false
 
 if(emailAddressDatabase[1] === emailAddress) {
-    console.log(emailAddressDatabase[i])
+    console.log(emailAddressDatabase[i]);
     userFound = true;
 }
 
 if(userFound === true) {
-    console.log("You can access the platform")
+    console.log("You can access the platform");
 } else {
     console.log("Sorry, you are not allowed to access this page");
 }
+
+
+
+
+
+
+          //2ND TASK
+/** Generating random numbers 1 to 6 - user / computer
+ The biggest one wins
+
+userNumber - random number
+computerNumber - random number
+
+if userNumber is biggest than computerNumber, it wins.
