@@ -22,17 +22,18 @@ var emailAddressDatabase = ["giuliarosignoli@gmail.com", "chiaracorradini@gmail.
 
 // 3rd step - Loop
 
+var userFound = false;
+
 for (var i = 0; i < emailAddressDatabase.length; i++){
     console.log("loop: " + i );
+
+    if(emailAddressDatabase[i] === emailAddress) {
+        console.log(emailAddressDatabase[i]);
+        userFound = true;
+    }
 }
 
 // 4th step Condition
-var userFound = false
-
-if(emailAddressDatabase[1] === emailAddress) {
-    console.log(emailAddressDatabase[i]);
-    userFound = true;
-}
 
 if(userFound === true) {
     console.log("You can access the platform");
@@ -43,31 +44,23 @@ if(userFound === true) {
 
 
 
+/*
 
+           2ND TASK
 
-          // 2ND TASK
-
-/** Generating random numbers 1 to 6 - user / computer
+ Generating random numbers 1 to 6 - user / computer
  The biggest one wins
 
 userNumber - random number
 computerNumber - random number
 
-if userNumber is bigger than computerNumber, it wins. */
+if userNumber is bigger than computerNumber, it wins.
 
 
-var userNumber = Math.floor(Math.random()*10 );
+var userNumber = Math.floor(Math.random()* 6 + 1 );
 console.log("The number is ", userNumber);
 
-var computerNumber = Math.floor(Math.random)*10 );
+var computerNumber = Math.floor(Math.random() * 6 + 1 );
 console.log("The number is ", computerNumber);
 
-
-/* function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) ) + min;
-}
 */
-
-if(userNumber > 6) {
-    userNumber = 
-}
